@@ -1,0 +1,376 @@
+﻿[*.cs]
+
+# SA1200: Using directives should be placed correctly
+dotnet_diagnostic.SA1200.severity = none
+
+# SA1600: Elements should be documented
+dotnet_diagnostic.SA1600.severity = none
+
+# SA1101: Prefix local calls with this
+dotnet_diagnostic.SA1101.severity = none
+
+# SA1633: File should have header
+dotnet_diagnostic.SA1633.severity = none
+
+# SA1000: Keywords should be spaced correctly
+dotnet_diagnostic.SA1000.severity = none
+
+# SA1611: Element parameters should be documented
+dotnet_diagnostic.SA1611.severity = none
+
+# SA1623: Property summary documentation should match accessors
+dotnet_diagnostic.SA1623.severity = suggestion
+
+# SA1102: Query clause should follow previous clause
+dotnet_diagnostic.SA1102.severity = none
+
+# SA1208: System using directives should be placed before other using directives
+dotnet_diagnostic.SA1208.severity = none
+
+# SA1629: Documentation text should end with a period
+dotnet_diagnostic.SA1629.severity = none
+
+# SA1642: Constructor summary documentation should begin with standard text
+dotnet_diagnostic.SA1642.severity = warning
+
+# SA1649: File name should match first type name
+dotnet_diagnostic.SA1649.severity = error
+
+# SA1622: Generic type parameter documentation should have text
+dotnet_diagnostic.SA1622.severity = warning
+
+# SA1616: Element return value documentation should have text
+dotnet_diagnostic.SA1616.severity = silent
+
+# SA1615: Element return value should be documented
+dotnet_diagnostic.SA1615.severity = silent
+
+# SA1614: Element parameter documentation should have text
+dotnet_diagnostic.SA1614.severity = silent
+
+# SA1309: Field names should not begin with underscore
+dotnet_diagnostic.SA1309.severity = none
+
+# SA1601: Partial elements should be documented
+dotnet_diagnostic.SA1601.severity = warning
+
+# CS1591: Missing XML comment for publicly visible type or member
+dotnet_diagnostic.CS1591.severity = none
+
+# SA0001: XML comment analysis disabled
+dotnet_diagnostic.SA0001.severity = suggestion
+
+# SA1602: Enumeration items should be documented
+dotnet_diagnostic.SA1602.severity = warning
+
+# IDE0060: Remove unused parameter
+dotnet_diagnostic.IDE0060.severity = warning
+
+# Default severity for all analyzer diagnostics
+dotnet_analyzer_diagnostic.severity = suggestion
+
+# CA1725: Parameter names should match base declaration
+dotnet_diagnostic.CA1725.severity = warning
+
+# IDE0130: Namespace does not match folder structure
+dotnet_diagnostic.IDE0130.severity = warning
+
+# IDE0160: Convert to block scoped namespace
+dotnet_diagnostic.IDE0160.severity = none
+
+# RCS1006: Merge 'else' with nested 'if'.
+dotnet_diagnostic.RCS1006.severity = none
+
+# RCS1043: Remove 'partial' modifier from type with a single part.
+dotnet_diagnostic.RCS1043.severity = warning
+
+# RCS1214: Unnecessary interpolated string.
+dotnet_diagnostic.RCS1214.severity = warning
+
+# SA1513: Closing brace should be followed by blank line
+dotnet_diagnostic.SA1513.severity = warning
+
+# SA1512: Single-line comments should not be followed by blank line
+dotnet_diagnostic.SA1512.severity = warning
+
+# SA1507: Code should not contain multiple blank lines in a row
+dotnet_diagnostic.SA1507.severity = warning
+
+# IDE0011: Add braces
+dotnet_diagnostic.IDE0011.severity = warning
+
+# IDE2003: C#
+dotnet_diagnostic.IDE2003.severity = warning
+
+# IDE0046: Convert to conditional expression
+dotnet_diagnostic.IDE0046.severity = silent
+
+# IDE0045: Convert to conditional expression
+dotnet_diagnostic.IDE0045.severity = silent
+
+# RCS1141: Add 'param' element to documentation comment.
+dotnet_diagnostic.RCS1141.severity = silent
+
+# RCS1228: Unused element in documentation comment.
+dotnet_diagnostic.RCS1228.severity = silent
+
+# SA1005: Single line comments should begin with single space
+dotnet_diagnostic.SA1005.severity = warning
+
+# SA1515: Single-line comment should be preceded by blank line
+dotnet_diagnostic.SA1515.severity = warning
+
+# RCS1037: Remove trailing white-space.
+dotnet_diagnostic.RCS1037.severity = warning
+
+# SA1517: Code should not contain blank lines at start of file
+dotnet_diagnostic.SA1517.severity = warning
+
+# SA1402: File may only contain a single type
+dotnet_diagnostic.SA1402.severity = error
+
+# S1125: Boolean literals should not be redundant
+dotnet_diagnostic.S1125.severity = warning
+
+# S101: Types should be named in PascalCase
+dotnet_diagnostic.S101.severity = warning
+
+# RCS1156: Use string.Length instead of comparison with empty string.
+dotnet_diagnostic.RCS1156.severity = warning
+
+# S1764: Identical expressions should not be used on both sides of a binary operator
+dotnet_diagnostic.S1764.severity = warning
+
+# S4144: Methods should not have identical implementations
+dotnet_diagnostic.S4144.severity = warning
+
+# S1481: Unused local variables should be removed
+dotnet_diagnostic.S1481.severity = warning
+
+# IDE0059: Unnecessary assignment of a value
+dotnet_diagnostic.IDE0059.severity = warning
+
+# SA1514: Element documentation header should be preceded by blank line
+dotnet_diagnostic.SA1514.severity = warning
+
+# SA1300: Element should begin with upper-case letter
+dotnet_diagnostic.SA1300.severity = warning
+csharp_using_directive_placement = outside_namespace:silent
+csharp_prefer_simple_using_statement = true:suggestion
+csharp_prefer_braces = true:silent
+csharp_style_namespace_declarations = block_scoped:silent
+csharp_style_prefer_method_group_conversion = true:silent
+csharp_style_expression_bodied_methods = false:silent
+
+# SA1004: Documentation lines should begin with single space
+dotnet_diagnostic.SA1004.severity = warning
+
+# SA1312: Variable names should begin with lower-case letter
+dotnet_diagnostic.SA1312.severity = warning
+
+# SA1120: Comments should contain text
+dotnet_diagnostic.SA1120.severity = warning
+
+# RCS1036: Remove unnecessary blank line.
+dotnet_diagnostic.RCS1036.severity = warning
+
+# S4136: Method overloads should be grouped together
+dotnet_diagnostic.S4136.severity = warning
+
+# IDE0051: Remove unused private members
+dotnet_diagnostic.IDE0051.severity = warning
+
+# IDE0055: Fix formatting
+dotnet_diagnostic.IDE0055.severity = warning
+
+# SA1116: Split parameters should start on line after declaration
+dotnet_diagnostic.SA1116.severity = warning
+
+# SA1617: Void return value should not be documented
+dotnet_diagnostic.SA1617.severity = warning
+
+# SA1516: Elements should be separated by blank line
+dotnet_diagnostic.SA1516.severity = warning
+
+# SA1508: Closing braces should not be preceded by blank line
+dotnet_diagnostic.SA1508.severity = warning
+
+# SA1003: Symbols should be spaced correctly
+dotnet_diagnostic.SA1003.severity = warning
+
+# S125: Sections of code should not be commented out
+dotnet_diagnostic.S125.severity = warning
+
+# IDE2002: Consecutive braces must not have blank line between them
+dotnet_diagnostic.IDE2002.severity = warning
+
+# RCS1186: Use Regex instance instead of static method.
+dotnet_diagnostic.RCS1186.severity = warning
+
+# SA1204: Static elements should appear before instance elements
+dotnet_diagnostic.SA1204.severity = warning
+
+# SA1212: Property accessors should follow order
+dotnet_diagnostic.SA1212.severity = warning
+
+# SA1505: Opening braces should not be followed by blank line
+dotnet_diagnostic.SA1505.severity = warning
+
+# S4487: Unread "private" fields should be removed
+dotnet_diagnostic.S4487.severity = warning
+
+# IDE0005: Using directive is unnecessary.
+dotnet_diagnostic.IDE0005.severity = warning
+
+# IDE0004: Remove Unnecessary Cast
+dotnet_diagnostic.IDE0004.severity = warning
+
+# RCS1138: Add summary to documentation comment.
+dotnet_diagnostic.RCS1138.severity = warning
+
+# S2699: Tests should include assertions
+dotnet_diagnostic.S2699.severity = warning
+
+# SA1316: Tuple element names should use correct casing
+dotnet_diagnostic.SA1316.severity = warning
+
+# RCS1047: Non-asynchronous method name should not end with 'Async'.
+dotnet_diagnostic.RCS1047.severity = warning
+
+# IDE2001: Embedded statements must be on their own line
+dotnet_diagnostic.IDE2001.severity = warning
+
+# RCS1038: Remove empty statement.
+dotnet_diagnostic.RCS1038.severity = warning
+
+# S1116: Empty statements should be removed
+dotnet_diagnostic.S1116.severity = warning
+
+# SA1107: Code should not contain multiple statements on one line
+dotnet_diagnostic.SA1107.severity = warning
+
+# S1075: URIs should not be hardcoded
+dotnet_diagnostic.S1075.severity = warning
+
+# IDE0082: 'typeof' can be converted  to 'nameof'
+dotnet_diagnostic.IDE0082.severity = warning
+
+# S3603: Methods with "Pure" attribute should return a value 
+dotnet_diagnostic.S3603.severity = error
+csharp_indent_labels = one_less_than_current
+csharp_style_prefer_top_level_statements = true:silent
+csharp_style_expression_bodied_constructors = false:silent
+csharp_style_expression_bodied_operators = false:silent
+csharp_style_expression_bodied_properties = true:silent
+csharp_style_expression_bodied_indexers = true:silent
+csharp_style_expression_bodied_accessors = true:silent
+csharp_style_expression_bodied_lambdas = true:silent
+csharp_style_expression_bodied_local_functions = false:silent
+csharp_style_throw_expression = true:suggestion
+csharp_style_prefer_null_check_over_type_check = true:suggestion
+csharp_prefer_simple_default_expression = true:suggestion
+csharp_style_prefer_local_over_anonymous_function = true:suggestion
+csharp_style_prefer_index_operator = true:suggestion
+
+# CA1305: Specify IFormatProvider
+dotnet_diagnostic.CA1305.severity = warning
+
+# CA1309: Use ordinal string comparison
+dotnet_diagnostic.CA1309.severity = warning
+
+# S1144: Unused private types or members should be removed
+dotnet_diagnostic.S1144.severity = warning
+
+# SA1121: Use built-in type alias
+dotnet_diagnostic.SA1121.severity = warning
+
+# SA1142: Refer to tuple fields by name
+dotnet_diagnostic.SA1142.severity = warning
+
+# SA1128: Put constructor initializers on their own line
+dotnet_diagnostic.SA1128.severity = warning
+
+# RCS1118: Mark local variable as const.
+dotnet_diagnostic.RCS1118.severity = warning
+
+# SA1500: Braces for multi-line statements should not share line
+dotnet_diagnostic.SA1500.severity = warning
+
+# IDE0008: Use explicit type
+dotnet_diagnostic.IDE0008.severity = warning
+
+# S1133: Deprecated code should be removed
+dotnet_diagnostic.S1133.severity = warning
+
+[*.{cs,vb}]
+#### Naming styles ####
+
+# Naming rules
+
+dotnet_naming_rule.interface_should_be_begins_with_i.severity = suggestion
+dotnet_naming_rule.interface_should_be_begins_with_i.symbols = interface
+dotnet_naming_rule.interface_should_be_begins_with_i.style = begins_with_i
+
+dotnet_naming_rule.types_should_be_pascal_case.severity = suggestion
+dotnet_naming_rule.types_should_be_pascal_case.symbols = types
+dotnet_naming_rule.types_should_be_pascal_case.style = pascal_case
+
+dotnet_naming_rule.non_field_members_should_be_pascal_case.severity = suggestion
+dotnet_naming_rule.non_field_members_should_be_pascal_case.symbols = non_field_members
+dotnet_naming_rule.non_field_members_should_be_pascal_case.style = pascal_case
+
+# Symbol specifications
+
+dotnet_naming_symbols.interface.applicable_kinds = interface
+dotnet_naming_symbols.interface.applicable_accessibilities = public, internal, private, protected, protected_internal, private_protected
+dotnet_naming_symbols.interface.required_modifiers = 
+
+dotnet_naming_symbols.types.applicable_kinds = class, struct, interface, enum
+dotnet_naming_symbols.types.applicable_accessibilities = public, internal, private, protected, protected_internal, private_protected
+dotnet_naming_symbols.types.required_modifiers = 
+
+dotnet_naming_symbols.non_field_members.applicable_kinds = property, event, method
+dotnet_naming_symbols.non_field_members.applicable_accessibilities = public, internal, private, protected, protected_internal, private_protected
+dotnet_naming_symbols.non_field_members.required_modifiers = 
+
+# Naming styles
+
+dotnet_naming_style.begins_with_i.required_prefix = I
+dotnet_naming_style.begins_with_i.required_suffix = 
+dotnet_naming_style.begins_with_i.word_separator = 
+dotnet_naming_style.begins_with_i.capitalization = pascal_case
+
+dotnet_naming_style.pascal_case.required_prefix = 
+dotnet_naming_style.pascal_case.required_suffix = 
+dotnet_naming_style.pascal_case.word_separator = 
+dotnet_naming_style.pascal_case.capitalization = pascal_case
+
+dotnet_naming_style.pascal_case.required_prefix = 
+dotnet_naming_style.pascal_case.required_suffix = 
+dotnet_naming_style.pascal_case.word_separator = 
+dotnet_naming_style.pascal_case.capitalization = pascal_case
+dotnet_style_operator_placement_when_wrapping = beginning_of_line
+tab_width = 4
+indent_size = 4
+
+# IDE0047: Remove unnecessary parentheses
+dotnet_diagnostic.IDE0047.severity = warning
+dotnet_style_coalesce_expression = true:suggestion
+dotnet_style_null_propagation = true:suggestion
+dotnet_style_prefer_is_null_check_over_reference_equality_method = true:suggestion
+dotnet_style_prefer_auto_properties = true:silent
+dotnet_style_object_initializer = true:suggestion
+dotnet_style_collection_initializer = true:suggestion
+dotnet_style_prefer_simplified_boolean_expressions = true:suggestion
+dotnet_style_prefer_conditional_expression_over_assignment = true:silent
+dotnet_style_prefer_conditional_expression_over_return = true:silent
+dotnet_style_explicit_tuple_names = true:warning
+dotnet_style_prefer_inferred_tuple_names = true:suggestion
+dotnet_style_prefer_inferred_anonymous_type_member_names = true:suggestion
+dotnet_style_prefer_compound_assignment = true:suggestion
+dotnet_style_prefer_simplified_interpolation = true:suggestion
+dotnet_style_namespace_match_folder = true:suggestion
+end_of_line = crlf
+
+# IDE0033: Use explicitly provided tuple name
+dotnet_diagnostic.IDE0033.severity = warning
